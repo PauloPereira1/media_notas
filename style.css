@@ -1,0 +1,23 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: 7px;
+
+    background-color: rgba(177, 177, 177, 0.233);
+}
+
+#fullscreen {
+    background-color: rgba(177, 177, 177, 0.226);
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+}
+
+#screenResult {
+    margin-top: 40px;
+}
+
+#title-page {
+    width: 100%;
+    padding: 100px 0 100px 0;
+    text-align: center;
+}
