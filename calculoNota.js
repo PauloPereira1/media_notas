@@ -8,5 +8,12 @@ function exibirValor(){
         document.getElementById('resultado').innerHTML = `Parabens, voce foi aprovado!!! Sua média foi de <strong>${calculo}</strong>`;
     } else {
         document.getElementById('resultado').innerHTML = `Que pena, voce foi reprovado!!! Sua média foi de <strong>${calculo}</strong>`;        
-    }  
+    }
 }
+
+document.addEventListener("keypress", (e) => {
+    if(e.key === 'Enter'){
+        var submit = document.querySelector('#send');
+        submit.click();
+    }
+})
